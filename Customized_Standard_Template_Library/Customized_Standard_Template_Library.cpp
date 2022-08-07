@@ -25,7 +25,7 @@ public:
 // 
 // Function Name    : Max
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList  
 // Description      : This function is used to find the Maximum value from LinkedList
 // Returns          : Maximum Element
@@ -57,7 +57,7 @@ T Functions<T> ::  Max(struct node<T> *Head, int iSize)
 // 
 // Function Name    : Min
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList  
 // Description      : This function is used to find the Minimum value from LinkedList
 // Returns          : Minimum Element
@@ -89,7 +89,7 @@ T Functions<T> ::  Min(struct node<T> *Head, int iSize)
 // 
 // Function Name    : Find
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList, Element to search  
 // Description      : This function is used to search the element in LinkedList
 // Returns          : boolean value
@@ -121,7 +121,7 @@ bool Functions<T> :: Find(struct node<T> *Head, int iSize, T No)
 // 
 // Function Name    : Count
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList, Element  
 // Description      : This function is used to count the frequency of element from LinkedList
 // Returns          : Frequency
@@ -178,7 +178,7 @@ public:
 // 
 // Function Name    : Singly_Linear_LinkedList
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is constructor of class Singly_Linear_LinkedList   
 //					  It initalises the characteristics of 
@@ -198,7 +198,7 @@ Singly_Linear_LinkedList<T> :: Singly_Linear_LinkedList()
 // 
 // Function Name    : ~Singly_Linear_LinkedList
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is destructor of class Singly_Linear_LinkedList
 //					  It Deletes the memory allocated for Singly_Linear_LinkedList   					
@@ -216,7 +216,7 @@ Singly_Linear_LinkedList<T> :: ~Singly_Linear_LinkedList()
 // 
 // Function Name    : DisplayElements
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to display the Singly Linear
 //					  Linked List   					
@@ -240,7 +240,7 @@ void Singly_Linear_LinkedList<T> :: DisplayElements()
 // 
 // Function Name    : CountNoElements
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to count number of elements in  
 //					  Singly Linear Linked List   
@@ -260,7 +260,7 @@ int Singly_Linear_LinkedList<T> :: CountNoElements()
 // 
 // Function Name    : InsertFirst
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -287,7 +287,7 @@ void Singly_Linear_LinkedList<T> :: InsertFirst(T No)
 // 
 // Function Name    : InsertLast
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -329,7 +329,7 @@ void Singly_Linear_LinkedList<T> :: InsertLast(T No)
 // 
 // Function Name    : InsertAtPosition
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered and position at which data should 
 //					  be entered
@@ -378,7 +378,7 @@ void Singly_Linear_LinkedList<T> :: InsertAtPosition(T No, int Pos)
 // 
 // Function Name    : DeleteFirst
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at first 
 //                    position in Singly Linear Linked List   					
@@ -413,7 +413,7 @@ void Singly_Linear_LinkedList<T> :: DeleteFirst()
 // 
 // Function Name    : DeleteLast
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at last 
 //                    position in Singly Linear Linked List   					
@@ -451,7 +451,7 @@ void Singly_Linear_LinkedList<T> :: DeleteLast()
 // 
 // Function Name    : DeleteAtPosition
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Position at which data should be deleted
 //
@@ -498,7 +498,7 @@ void Singly_Linear_LinkedList<T> :: DeleteAtPosition(int Pos)
 // 
 // Function Name    : Maximum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Max function
 // Returns          : Maximum Element
@@ -515,7 +515,7 @@ T Singly_Linear_LinkedList<T> :: Maximum()
 // 
 // Function Name    : Minimum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Min function
 // Returns          : Minimum Element
@@ -531,7 +531,7 @@ T Singly_Linear_LinkedList<T> :: Minimum()
 // 
 // Function Name    : Search
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Find function
 // Returns          : boolean value
@@ -547,7 +547,7 @@ bool Singly_Linear_LinkedList<T> :: Search(T No)
 // 
 // Function Name    : Frequency
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Count function
 // Returns          : Frequency of number
@@ -593,7 +593,7 @@ public:
 // 
 // Function Name    : Singly_Circular_LinkedList
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // 
 // Description      : This is constructor of class Singly_Circular_LinkedList 
@@ -616,7 +616,7 @@ Singly_Circular_LinkedList<T> :: Singly_Circular_LinkedList()
 // 
 // Function Name    : ~Singly_Circular_LinkedList
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is destructor of class Singly_Circular_LinkedList
 //					  It Deletes the memory allocated for Singly Circular LinkedList   					
@@ -634,7 +634,7 @@ Singly_Circular_LinkedList<T> :: ~Singly_Circular_LinkedList()
 // 
 // Function Name    : DisplayElements
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to display the Singly Circular
 //					  Linked List   					
@@ -658,7 +658,7 @@ void Singly_Circular_LinkedList<T> :: DisplayElements()
 // 
 // Function Name    : CountNoElements
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to count number of elements in  
 //					  Singly circular Linked List   
@@ -678,7 +678,7 @@ int Singly_Circular_LinkedList<T> :: CountNoElements()
 // 
 // Function Name    : InsertFirst
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -714,7 +714,7 @@ void Singly_Circular_LinkedList<T> :: InsertFirst(T No)
 // 
 // Function Name    : InsertLast
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -750,7 +750,7 @@ void Singly_Circular_LinkedList<T> :: InsertLast(T No)
 // 
 // Function Name    : InsertAtPosition
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered and position at which data should 
 //					  be entered
@@ -799,7 +799,7 @@ void Singly_Circular_LinkedList<T> :: InsertAtPosition(T No, int Pos)
 // 
 // Function Name    : DeleteFirst
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at first 
 //                    position in Singly Circular Linked List   					
@@ -836,7 +836,7 @@ void Singly_Circular_LinkedList<T> :: DeleteFirst()
 // 
 // Function Name    : DeleteLast
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at last 
 //                    position in Singly Circular Linked List   					
@@ -877,7 +877,7 @@ void Singly_Circular_LinkedList<T> :: DeleteLast()
 // 
 // Function Name    : DeleteAtPosition
 // Function Date    : 25/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Position at which data should be deleted
 //
@@ -924,7 +924,7 @@ void Singly_Circular_LinkedList<T> :: DeleteAtPosition(int Pos)
 // 
 // Function Name    : Maximum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Max function
 // Returns          : Maximum Element
@@ -941,7 +941,7 @@ T Singly_Circular_LinkedList<T> :: Maximum()
 // 
 // Function Name    : Minimum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Min function
 // Returns          : Minimum Element
@@ -957,7 +957,7 @@ T Singly_Circular_LinkedList<T> :: Minimum()
 // 
 // Function Name    : Search
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Find function
 // Returns          : boolean value
@@ -973,7 +973,7 @@ bool Singly_Circular_LinkedList<T> :: Search(T No)
 // 
 // Function Name    : Frequency
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Count function
 // Returns          : Frequency of number
@@ -1010,7 +1010,7 @@ public:
 // 
 // Function Name    : Max
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList  
 // Description      : This function is used to find the Maximum value from LinkedList
 // Returns          : Maximum Element
@@ -1042,7 +1042,7 @@ T Function<T> ::  Max(struct Node<T> *Head, int iSize)
 // 
 // Function Name    : Min
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList  
 // Description      : This function is used to find the Minimum value from LinkedList
 // Returns          : Minimum Element
@@ -1073,7 +1073,7 @@ T Function<T> ::  Min(struct Node<T> *Head, int iSize)
 // 
 // Function Name    : Find
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList, Element to search  
 // Description      : This function is used to search the element in LinkedList
 // Returns          : boolean value
@@ -1104,7 +1104,7 @@ bool Function<T> :: Find(struct Node<T> *Head, int iSize, T No)
 // 
 // Function Name    : Count
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : Address of Head, size of LinkedList, Element  
 // Description      : This function is used to count the frequency of element from LinkedList
 // Returns          : Frequency
@@ -1162,7 +1162,7 @@ public:
 // 
 // Function Name    : Doubly_Linear_LinkedList
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // 
 // Description      : This is constructor of class Doubly_Linear_LinkedList 
@@ -1184,7 +1184,7 @@ Doubly_Linear_LinkedList<T> :: Doubly_Linear_LinkedList()
 // 
 // Function Name    : ~Doubly_Linear_LinkedList
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE
 //  
 // Description      : This is destructor of class ~Doubly_Linear_LinkedList
@@ -1204,7 +1204,7 @@ Doubly_Linear_LinkedList<T> :: ~Doubly_Linear_LinkedList()
 // 
 // Function Name    : DisplayElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to display the Doubly Linear
 //					  Linked List   					
@@ -1229,7 +1229,7 @@ void Doubly_Linear_LinkedList<T> :: DisplayElements()
 // 
 // Function Name    : CountNoElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to count number of elements in  
 //					  Doubly Linear Linked List   
@@ -1249,7 +1249,7 @@ int Doubly_Linear_LinkedList<T> :: CountNoElements()
 // 
 // Function Name    : InsertFirst
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -1285,7 +1285,7 @@ void Doubly_Linear_LinkedList<T> :: InsertFirst(T No)
 // 
 // Function Name    : InsertLast
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -1330,7 +1330,7 @@ void Doubly_Linear_LinkedList<T> :: InsertLast(T No)
 // 
 // Function Name    : InsertAtPosition
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered and position at which data should 
 //					  be entered
@@ -1383,7 +1383,7 @@ void Doubly_Linear_LinkedList<T> :: InsertAtPosition(T No, int iPos)
 // 
 // Function Name    : DeleteFirst
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at first 
 //                    position in Doubly Linear Linked List   					
@@ -1419,7 +1419,7 @@ void Doubly_Linear_LinkedList<T> :: DeleteFirst()
 // 
 // Function Name    : DeleteLast
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at last 
 //                    position in Doubly Linear Linked List   					
@@ -1458,7 +1458,7 @@ void Doubly_Linear_LinkedList<T> :: DeleteLast()
 // 
 // Function Name    : DeleteAtPosition
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Position at which data should be deleted
 //
@@ -1502,7 +1502,7 @@ void Doubly_Linear_LinkedList<T> :: DeleteAtPosition(int iPos)
 // 
 // Function Name    : Maximum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Max function
 // Returns          : Maximum Element
@@ -1519,7 +1519,7 @@ T Doubly_Linear_LinkedList<T> :: Maximum()
 // 
 // Function Name    : Minimum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Min function
 // Returns          : Minimum Element
@@ -1536,7 +1536,7 @@ T Doubly_Linear_LinkedList<T> :: Minimum()
 // 
 // Function Name    : Search
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Find function
 // Returns          : boolean value
@@ -1552,7 +1552,7 @@ bool Doubly_Linear_LinkedList<T> :: Search(T No)
 // 
 // Function Name    : Frequency
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Count function
 // Returns          : Frequency of number
@@ -1599,7 +1599,7 @@ public:
 // 
 // Function Name    : Doubly_Circular_LinkedList
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // 
 // Description      : This is constructor of class Doubly_Circular_LinkedList 
@@ -1622,7 +1622,7 @@ Doubly_Circular_LinkedList<T> :: Doubly_Circular_LinkedList()
 // 
 // Function Name    : ~Doubly_Circular_LinkedList
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is destructor of class Doubly_Circular_LinkedList
 //					  It Deletes the memory allocated for Doubly Circular LinkedList   					
@@ -1639,7 +1639,7 @@ Doubly_Circular_LinkedList<T> :: ~Doubly_Circular_LinkedList()
 // 
 // Function Name    : DisplayElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to display the Doubly Circular
 //					  Linked List   					
@@ -1664,7 +1664,7 @@ void Doubly_Circular_LinkedList<T> :: DisplayElements()
 // 
 // Function Name    : CountNoElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to count number of elements in  
 //					  Doubly circular Linked List   
@@ -1684,7 +1684,7 @@ int Doubly_Circular_LinkedList<T> :: CountNoElements()
 // 
 // Function Name    : InsertFirst
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -1723,7 +1723,7 @@ void Doubly_Circular_LinkedList<T> :: InsertFirst(T No)
 // 
 // Function Name    : InsertLast
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -1762,7 +1762,7 @@ void Doubly_Circular_LinkedList<T> :: InsertLast(T No)
 // 
 // Function Name    : InsertAtPosition
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered and position at which data should 
 //					  be entered
@@ -1815,7 +1815,7 @@ void Doubly_Circular_LinkedList<T> :: InsertAtPosition(T No, int iPos)
 // 
 // Function Name    : DeleteFirst
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at first 
 //                    position in Doubly Circular Linked List   					
@@ -1852,7 +1852,7 @@ void Doubly_Circular_LinkedList<T> :: DeleteFirst()
 // 
 // Function Name    : DeleteLast
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // Description      : This Function is used to delete element at last 
 //                    position in Doubly Circular Linked List   					
@@ -1889,7 +1889,7 @@ void Doubly_Circular_LinkedList<T> :: DeleteLast()
 // 
 // Function Name    : DeleteAtPosition
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Position at which data should be deleted
 //
@@ -1933,7 +1933,7 @@ void Doubly_Circular_LinkedList<T> :: DeleteAtPosition(int iPos)
 // 
 // Function Name    : Maximum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Max function
 // Returns          : Maximum Element
@@ -1950,7 +1950,7 @@ T Doubly_Circular_LinkedList<T> :: Maximum()
 // 
 // Function Name    : Minimum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Min function
 // Returns          : Minimum element
@@ -1966,7 +1966,7 @@ T Doubly_Circular_LinkedList<T> :: Minimum()
 // 
 // Function Name    : Search
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Find function
 // Returns          : boolean value
@@ -1982,7 +1982,7 @@ bool Doubly_Circular_LinkedList<T> :: Search(T No)
 // 
 // Function Name    : Frequency
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Count function
 // Returns          : Frequency of number
@@ -2025,7 +2025,7 @@ public:
 // 
 // Function Name    : Stack
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // 
 // Description      : This is constructor of class Stack
@@ -2047,7 +2047,7 @@ Stack<T> :: Stack()
 // 
 // Function Name    : ~Stack
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is destructor of class Stack
 //					  It Deletes the memory allocated for Stack  					
@@ -2065,7 +2065,7 @@ Stack<T> :: ~Stack()
 // 
 // Function Name    : CountNoElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to count number of elements in  
 //					  Stack 
@@ -2085,7 +2085,7 @@ int Stack<T> :: CountNoElements()
 // 
 // Function Name    : DisplayElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to display the Stack
 //					    					
@@ -2119,7 +2119,7 @@ void Stack<T> :: DisplayElements()
 // 
 // Function Name    : Push
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -2145,7 +2145,7 @@ void Stack<T> :: Push(T No)
 // 
 // Function Name    : Pop
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE
 //
 // Description      : This Function is used to delete element from Stack   					
@@ -2174,7 +2174,7 @@ void Stack<T> :: Pop()
 // 
 // Function Name    : Maximum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Max function
 // Returns          : Maximum Element
@@ -2190,7 +2190,7 @@ T Stack<T> :: Maximum()
 // 
 // Function Name    : Minimum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Min function
 // Returns          : Minimum Element
@@ -2206,7 +2206,7 @@ T Stack<T> :: Minimum()
 // 
 // Function Name    : Search
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Find function
 // Returns          : boolean value
@@ -2222,7 +2222,7 @@ bool Stack<T> :: Search(T No)
 // 
 // Function Name    : Frequency
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Count function
 // Returns          : Frequency of number
@@ -2265,7 +2265,7 @@ public:
 // 
 // Function Name    : Queue
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE 
 // 
 // Description      : This is constructor of class Queue
@@ -2287,7 +2287,7 @@ Queue<T> :: Queue()
 // 
 // Function Name    : ~Queue
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is destructor of class Queue
 //					  It Deletes the memory allocated for Queue 					
@@ -2305,7 +2305,7 @@ Queue<T> :: ~Queue()
 // 
 // Function Name    : CountNoElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to count number of elements in  
 //					  Queue
@@ -2325,7 +2325,7 @@ int Queue<T> :: CountNoElements()
 // 
 // Function Name    : DisplayElements
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This Function is used to display the Queue
 //					    					
@@ -2359,7 +2359,7 @@ void Queue<T> :: DisplayElements()
 // 
 // Function Name    : Enqueue
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : 
 //					  Data to be entered
 //
@@ -2393,7 +2393,7 @@ void Queue<T> :: Enqueue(T No)
 // 
 // Function Name    : Dequeue
 // Function Date    : 26/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE
 //
 // Description      : This Function is used to delete element from Queue 					
@@ -2422,7 +2422,7 @@ void Queue<T> :: Dequeue()
 // 
 // Function Name    : Maximum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Max function
 // Returns          : Maximum Element
@@ -2439,7 +2439,7 @@ T Queue<T> :: Maximum()
 // 
 // Function Name    : Minimum
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Min function
 // Returns          : Minimum Element
@@ -2455,7 +2455,7 @@ T Queue<T> :: Minimum()
 // 
 // Function Name    : Search
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Find function
 // Returns          : boolean value
@@ -2471,7 +2471,7 @@ bool Queue<T> :: Search(T No)
 // 
 // Function Name    : Frequency
 // Function Date    : 27/05/2021
-// Function Author  : Atharva Argade
+// Function Author  : Prathamesh Pawar
 // Parameters       : NONE  
 // Description      : This is wrapper function which calls Count function
 // Returns          : Frequency of number
